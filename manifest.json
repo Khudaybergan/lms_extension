@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AI Quiz Solver",
+  "version": "1.0",
+  "description": "Мини AI решатель с одним кликом",
+  "permissions": ["activeTab", "tabs", "notifications", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  }
+}
