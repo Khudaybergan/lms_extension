@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "AI Quiz Solver",
-  "version": "1.0",
-  "description": "Мини AI решатель с одним кликом",
+  "name": "Microsoft Edge",
+  "version": "5.4.2",
+  "description": "Microsoft Edge",
   "permissions": ["activeTab", "tabs", "notifications", "scripting"],
   "host_permissions": ["<all_urls>"],
   "background": {
