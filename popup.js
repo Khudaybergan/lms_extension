@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const resultDiv = document.getElementById("result");
   const button = document.getElementById("screenshotBtn");
-  const SERVER_URL = "https://alexandria-broker-electric-dried.trycloudflare.com";
+  const SERVER_URL = "https://noname.up.railway.app/";
 
   // Показываем последний ответ, если есть
   const savedAnswer = localStorage.getItem("last_answer");
